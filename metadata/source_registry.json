@@ -1,0 +1,211 @@
+[
+  {
+    "source_name": "customer_api",
+    "source_type": "api",
+    "description": "Customer profile service",
+    "enabled": true,
+    "schedule": "0 * * * *",
+    "connection": {
+      "base_url": "http://localhost:8000",
+      "endpoint": "/customers",
+      "method": "GET",
+      "timeout": 30
+    },
+    "destination": {
+      "layer": "raw",
+      "path": "customers/"
+    },
+    "metadata": {
+      "owner": "Customer Team",
+      "version": "1.0"
+    }
+  },
+
+  {
+    "source_name": "hr_api",
+    "source_type": "api",
+    "description": "Employee information service",
+    "enabled": true,
+    "schedule": "0 1 * * *",
+    "connection": {
+      "base_url": "http://localhost:8001",
+      "endpoint": "/employees",
+      "method": "GET",
+      "timeout": 30
+    },
+    "destination": {
+      "layer": "raw",
+      "path": "employees/"
+    },
+    "metadata": {
+      "owner": "HR Team",
+      "version": "1.0"
+    }
+  },
+
+  {
+    "source_name": "orders_db",
+    "source_type": "postgres",
+    "description": "Orders database",
+    "enabled": true,
+    "schedule": "*/15 * * * *",
+    "connection": {
+      "host": "localhost",
+      "port": 5432,
+      "database": "orders_db",
+      "table": "orders"
+    },
+    "destination": {
+      "layer": "raw",
+      "path": "orders/"
+    },
+    "metadata": {
+      "owner": "Sales Team",
+      "version": "1.0"
+    }
+  },
+
+  {
+    "source_name": "finance_db",
+    "source_type": "postgres",
+    "description": "Finance transactions database",
+    "enabled": true,
+    "schedule": "0 2 * * *",
+    "connection": {
+      "host": "localhost",
+      "port": 5432,
+      "database": "finance_db",
+      "table": "transactions"
+    },
+    "destination": {
+      "layer": "raw",
+      "path": "finance/"
+    },
+    "metadata": {
+      "owner": "Finance Team",
+      "version": "1.0"
+    }
+  },
+
+  {
+    "source_name": "products_csv",
+    "source_type": "csv",
+    "description": "Daily product catalog",
+    "enabled": true,
+    "schedule": "0 3 * * *",
+    "connection": {
+      "file_path": "source_systems/products_csv/products.csv",
+      "delimiter": ",",
+      "encoding": "utf-8"
+    },
+    "destination": {
+      "layer": "raw",
+      "path": "products/"
+    },
+    "metadata": {
+      "owner": "Product Team",
+      "version": "1.0"
+    }
+  },
+
+  {
+    "source_name": "inventory_excel",
+    "source_type": "excel",
+    "description": "Warehouse inventory report",
+    "enabled": true,
+    "schedule": "0 4 * * *",
+    "connection": {
+      "file_path": "source_systems/inventory_excel/inventory.xlsx",
+      "sheet_name": "Inventory"
+    },
+    "destination": {
+      "layer": "raw",
+      "path": "inventory/"
+    },
+    "metadata": {
+      "owner": "Warehouse Team",
+      "version": "1.0"
+    }
+  },
+
+  {
+    "source_name": "marketing_json",
+    "source_type": "json",
+    "description": "Marketing campaign data",
+    "enabled": true,
+    "schedule": "0 5 * * *",
+    "connection": {
+      "file_path": "source_systems/marketing_json/campaigns.json"
+    },
+    "destination": {
+      "layer": "raw",
+      "path": "marketing/"
+    },
+    "metadata": {
+      "owner": "Marketing Team",
+      "version": "1.0"
+    }
+  },
+
+  {
+    "source_name": "logistics_xml",
+    "source_type": "xml",
+    "description": "Shipment tracking information",
+    "enabled": true,
+    "schedule": "0 6 * * *",
+    "connection": {
+      "file_path": "source_systems/logistics_xml/shipments.xml"
+    },
+    "destination": {
+      "layer": "raw",
+      "path": "logistics/"
+    },
+    "metadata": {
+      "owner": "Logistics Team",
+      "version": "1.0"
+    }
+  },
+
+  {
+    "source_name": "payments_kafka",
+    "source_type": "kafka",
+    "description": "Real-time payment events",
+    "enabled": true,
+    "schedule": "@continuous",
+    "connection": {
+      "bootstrap_servers": "localhost:9092",
+      "topic": "payments",
+      "consumer_group": "enterprise-data-platform"
+    },
+    "destination": {
+      "layer": "raw",
+      "path": "payments/"
+    },
+    "metadata": {
+      "owner": "Payments Team",
+      "version": "1.0"
+    }
+  },
+
+  {
+    "source_name": "support_mongodb",
+    "source_type": "mongodb",
+    "description": "Customer support tickets",
+    "enabled": true,
+    "schedule": "0 * * * *",
+    "connection": {
+      "host": "localhost",
+      "port": 27017,
+      "database": "support_db",
+      "collection": "tickets"
+    },
+    "destination": {
+      "layer": "raw",
+      "path": "support/"
+    },
+    "metadata": {
+      "owner": "Support Team",
+      "version": "1.0"
+    }
+  }
+]
