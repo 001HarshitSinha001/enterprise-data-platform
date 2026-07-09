@@ -1,0 +1,182 @@
+[
+    {
+        "campaign_id": 1,
+        "campaign_name": "Summer Sale",
+        "channel": "Facebook",
+        "budget": 147952,
+        "start_date": "2026-02-23",
+        "end_date": "2026-03-18",
+        "status": "Scheduled"
+    },
+    {
+        "campaign_id": 2,
+        "campaign_name": "Weekend Offer",
+        "channel": "Facebook",
+        "budget": 84042,
+        "start_date": "2026-06-28",
+        "end_date": "2026-07-18",
+        "status": "Scheduled"
+    },
+    {
+        "campaign_id": 3,
+        "campaign_name": "Flash Sale",
+        "channel": "Instagram",
+        "budget": 25390,
+        "start_date": "2026-04-13",
+        "end_date": "2026-04-23",
+        "status": "Completed"
+    },
+    {
+        "campaign_id": 4,
+        "campaign_name": "Mega Discount",
+        "channel": "YouTube",
+        "budget": 174877,
+        "start_date": "2026-01-09",
+        "end_date": "2026-01-23",
+        "status": "Scheduled"
+    },
+    {
+        "campaign_id": 5,
+        "campaign_name": "New Launch",
+        "channel": "Email",
+        "budget": 175046,
+        "start_date": "2026-03-29",
+        "end_date": "2026-04-13",
+        "status": "Scheduled"
+    },
+    {
+        "campaign_id": 6,
+        "campaign_name": "Weekend Offer",
+        "channel": "Instagram",
+        "budget": 62620,
+        "start_date": "2026-06-30",
+        "end_date": "2026-07-19",
+        "status": "Completed"
+    },
+    {
+        "campaign_id": 7,
+        "campaign_name": "Festive Offer",
+        "channel": "Email",
+        "budget": 185899,
+        "start_date": "2026-06-15",
+        "end_date": "2026-07-05",
+        "status": "Active"
+    },
+    {
+        "campaign_id": 8,
+        "campaign_name": "Summer Sale",
+        "channel": "YouTube",
+        "budget": 62908,
+        "start_date": "2026-02-01",
+        "end_date": "2026-03-03",
+        "status": "Completed"
+    },
+    {
+        "campaign_id": 9,
+        "campaign_name": "Flash Sale",
+        "channel": "YouTube",
+        "budget": 158018,
+        "start_date": "2026-01-11",
+        "end_date": "2026-02-07",
+        "status": "Completed"
+    },
+    {
+        "campaign_id": 10,
+        "campaign_name": "Weekend Offer",
+        "channel": "Google",
+        "budget": 123608,
+        "start_date": "2026-03-12",
+        "end_date": "2026-04-01",
+        "status": "Completed"
+    },
+    {
+        "campaign_id": 11,
+        "campaign_name": "Clearance Sale",
+        "channel": "Facebook",
+        "budget": 171292,
+        "start_date": "2026-03-03",
+        "end_date": "2026-03-22",
+        "status": "Active"
+    },
+    {
+        "campaign_id": 12,
+        "campaign_name": "Festive Offer",
+        "channel": "Google",
+        "budget": 37932,
+        "start_date": "2026-02-01",
+        "end_date": "2026-02-21",
+        "status": "Completed"
+    },
+    {
+        "campaign_id": 13,
+        "campaign_name": "Festive Offer",
+        "channel": "Google",
+        "budget": 39245,
+        "start_date": "2026-05-08",
+        "end_date": "2026-06-01",
+        "status": "Active"
+    },
+    {
+        "campaign_id": 14,
+        "campaign_name": "Winter Sale",
+        "channel": "Email",
+        "budget": 180478,
+        "start_date": "2026-01-25",
+        "end_date": "2026-02-23",
+        "status": "Scheduled"
+    },
+    {
+        "campaign_id": 15,
+        "campaign_name": "Weekend Offer",
+        "channel": "Instagram",
+        "budget": 26465,
+        "start_date": "2026-06-12",
+        "end_date": "2026-06-24",
+        "status": "Completed"
+    },
+    {
+        "campaign_id": 16,
+        "campaign_name": "Clearance Sale",
+        "channel": "Google",
+        "budget": 150126,
+        "start_date": "2026-03-14",
+        "end_date": "2026-04-09",
+        "status": "Completed"
+    },
+    {
+        "campaign_id": 17,
+        "campaign_name": "Winter Sale",
+        "channel": "Google",
+        "budget": 147518,
+        "start_date": "2026-02-24",
+        "end_date": "2026-03-17",
+        "status": "Scheduled"
+    },
+    {
+        "campaign_id": 18,
+        "campaign_name": "Festive Offer",
+        "channel": "Email",
+        "budget": 90599,
+        "start_date": "2026-05-09",
+        "end_date": "2026-05-27",
+        "status": "Completed"
+    },
+    {
+        "campaign_id": 19,
+        "campaign_name": "Winter Sale",
+        "channel": "Email",
+        "budget": 93662,
+        "start_date": "2026-05-29",
+        "end_date": "2026-06-15",
+        "status": "Completed"
+    },
+    {
+        "campaign_id": 20,
+        "campaign_name": "Mega Discount",
+        "channel": "Google",
+        "budget": 198275,
+        "start_date": "2026-03-06",
+        "end_date": "2026-03-19",
+        "status": "Active"
+    }
+]

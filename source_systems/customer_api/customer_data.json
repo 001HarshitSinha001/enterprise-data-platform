@@ -1,0 +1,802 @@
+[
+    {
+        "customer_id": 1,
+        "first_name": "Anjali",
+        "last_name": "Yadav",
+        "email": "anjali.yadav1@retailhub.com",
+        "city": "Delhi",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 2,
+        "first_name": "Anjali",
+        "last_name": "Yadav",
+        "email": "anjali.yadav2@retailhub.com",
+        "city": "Delhi",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 3,
+        "first_name": "Rohan",
+        "last_name": "Joshi",
+        "email": "rohan.joshi3@retailhub.com",
+        "city": "Chennai",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 4,
+        "first_name": "Amit",
+        "last_name": "Gupta",
+        "email": "amit.gupta4@retailhub.com",
+        "city": "Delhi",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 5,
+        "first_name": "Pooja",
+        "last_name": "Joshi",
+        "email": "pooja.joshi5@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 6,
+        "first_name": "Anjali",
+        "last_name": "Sharma",
+        "email": "anjali.sharma6@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 7,
+        "first_name": "Priya",
+        "last_name": "Gupta",
+        "email": "priya.gupta7@retailhub.com",
+        "city": "Chennai",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 8,
+        "first_name": "Rahul",
+        "last_name": "Joshi",
+        "email": "rahul.joshi8@retailhub.com",
+        "city": "Pune",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 9,
+        "first_name": "Anjali",
+        "last_name": "Verma",
+        "email": "anjali.verma9@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 10,
+        "first_name": "Rahul",
+        "last_name": "Verma",
+        "email": "rahul.verma10@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 11,
+        "first_name": "Neha",
+        "last_name": "Yadav",
+        "email": "neha.yadav11@retailhub.com",
+        "city": "Pune",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 12,
+        "first_name": "Priya",
+        "last_name": "Sinha",
+        "email": "priya.sinha12@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 13,
+        "first_name": "Priya",
+        "last_name": "Yadav",
+        "email": "priya.yadav13@retailhub.com",
+        "city": "Pune",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 14,
+        "first_name": "Amit",
+        "last_name": "Sinha",
+        "email": "amit.sinha14@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 15,
+        "first_name": "Harshit",
+        "last_name": "Gupta",
+        "email": "harshit.gupta15@retailhub.com",
+        "city": "Delhi",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 16,
+        "first_name": "Priya",
+        "last_name": "Verma",
+        "email": "priya.verma16@retailhub.com",
+        "city": "Chennai",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 17,
+        "first_name": "Priya",
+        "last_name": "Verma",
+        "email": "priya.verma17@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 18,
+        "first_name": "Pooja",
+        "last_name": "Yadav",
+        "email": "pooja.yadav18@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 19,
+        "first_name": "Priya",
+        "last_name": "Singh",
+        "email": "priya.singh19@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 20,
+        "first_name": "Neha",
+        "last_name": "Patel",
+        "email": "neha.patel20@retailhub.com",
+        "city": "Delhi",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 21,
+        "first_name": "Anjali",
+        "last_name": "Sinha",
+        "email": "anjali.sinha21@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 22,
+        "first_name": "Harshit",
+        "last_name": "Sharma",
+        "email": "harshit.sharma22@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 23,
+        "first_name": "Neha",
+        "last_name": "Sinha",
+        "email": "neha.sinha23@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 24,
+        "first_name": "Rahul",
+        "last_name": "Yadav",
+        "email": "rahul.yadav24@retailhub.com",
+        "city": "Pune",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 25,
+        "first_name": "Rohan",
+        "last_name": "Yadav",
+        "email": "rohan.yadav25@retailhub.com",
+        "city": "Pune",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 26,
+        "first_name": "Priya",
+        "last_name": "Verma",
+        "email": "priya.verma26@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 27,
+        "first_name": "Rohan",
+        "last_name": "Yadav",
+        "email": "rohan.yadav27@retailhub.com",
+        "city": "Pune",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 28,
+        "first_name": "Harshit",
+        "last_name": "Yadav",
+        "email": "harshit.yadav28@retailhub.com",
+        "city": "Delhi",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 29,
+        "first_name": "Neha",
+        "last_name": "Gupta",
+        "email": "neha.gupta29@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 30,
+        "first_name": "Harshit",
+        "last_name": "Patel",
+        "email": "harshit.patel30@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 31,
+        "first_name": "Karan",
+        "last_name": "Yadav",
+        "email": "karan.yadav31@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 32,
+        "first_name": "Pooja",
+        "last_name": "Sinha",
+        "email": "pooja.sinha32@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 33,
+        "first_name": "Karan",
+        "last_name": "Gupta",
+        "email": "karan.gupta33@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 34,
+        "first_name": "Neha",
+        "last_name": "Gupta",
+        "email": "neha.gupta34@retailhub.com",
+        "city": "Delhi",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 35,
+        "first_name": "Sneha",
+        "last_name": "Sinha",
+        "email": "sneha.sinha35@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 36,
+        "first_name": "Rohan",
+        "last_name": "Gupta",
+        "email": "rohan.gupta36@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 37,
+        "first_name": "Harshit",
+        "last_name": "Gupta",
+        "email": "harshit.gupta37@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 38,
+        "first_name": "Rohan",
+        "last_name": "Patel",
+        "email": "rohan.patel38@retailhub.com",
+        "city": "Chennai",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 39,
+        "first_name": "Sneha",
+        "last_name": "Yadav",
+        "email": "sneha.yadav39@retailhub.com",
+        "city": "Delhi",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 40,
+        "first_name": "Neha",
+        "last_name": "Yadav",
+        "email": "neha.yadav40@retailhub.com",
+        "city": "Pune",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 41,
+        "first_name": "Rahul",
+        "last_name": "Joshi",
+        "email": "rahul.joshi41@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 42,
+        "first_name": "Karan",
+        "last_name": "Patel",
+        "email": "karan.patel42@retailhub.com",
+        "city": "Chennai",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 43,
+        "first_name": "Priya",
+        "last_name": "Verma",
+        "email": "priya.verma43@retailhub.com",
+        "city": "Pune",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 44,
+        "first_name": "Rahul",
+        "last_name": "Joshi",
+        "email": "rahul.joshi44@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 45,
+        "first_name": "Sneha",
+        "last_name": "Sharma",
+        "email": "sneha.sharma45@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 46,
+        "first_name": "Sneha",
+        "last_name": "Joshi",
+        "email": "sneha.joshi46@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 47,
+        "first_name": "Rahul",
+        "last_name": "Patel",
+        "email": "rahul.patel47@retailhub.com",
+        "city": "Delhi",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 48,
+        "first_name": "Anjali",
+        "last_name": "Singh",
+        "email": "anjali.singh48@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 49,
+        "first_name": "Harshit",
+        "last_name": "Yadav",
+        "email": "harshit.yadav49@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 50,
+        "first_name": "Pooja",
+        "last_name": "Patel",
+        "email": "pooja.patel50@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 51,
+        "first_name": "Amit",
+        "last_name": "Sharma",
+        "email": "amit.sharma51@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 52,
+        "first_name": "Priya",
+        "last_name": "Gupta",
+        "email": "priya.gupta52@retailhub.com",
+        "city": "Pune",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 53,
+        "first_name": "Neha",
+        "last_name": "Joshi",
+        "email": "neha.joshi53@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 54,
+        "first_name": "Priya",
+        "last_name": "Yadav",
+        "email": "priya.yadav54@retailhub.com",
+        "city": "Chennai",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 55,
+        "first_name": "Pooja",
+        "last_name": "Yadav",
+        "email": "pooja.yadav55@retailhub.com",
+        "city": "Chennai",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 56,
+        "first_name": "Rahul",
+        "last_name": "Gupta",
+        "email": "rahul.gupta56@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 57,
+        "first_name": "Anjali",
+        "last_name": "Gupta",
+        "email": "anjali.gupta57@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 58,
+        "first_name": "Sneha",
+        "last_name": "Yadav",
+        "email": "sneha.yadav58@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 59,
+        "first_name": "Amit",
+        "last_name": "Patel",
+        "email": "amit.patel59@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 60,
+        "first_name": "Harshit",
+        "last_name": "Joshi",
+        "email": "harshit.joshi60@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 61,
+        "first_name": "Sneha",
+        "last_name": "Verma",
+        "email": "sneha.verma61@retailhub.com",
+        "city": "Delhi",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 62,
+        "first_name": "Amit",
+        "last_name": "Yadav",
+        "email": "amit.yadav62@retailhub.com",
+        "city": "Delhi",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 63,
+        "first_name": "Neha",
+        "last_name": "Singh",
+        "email": "neha.singh63@retailhub.com",
+        "city": "Chennai",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 64,
+        "first_name": "Karan",
+        "last_name": "Sinha",
+        "email": "karan.sinha64@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 65,
+        "first_name": "Priya",
+        "last_name": "Verma",
+        "email": "priya.verma65@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 66,
+        "first_name": "Karan",
+        "last_name": "Joshi",
+        "email": "karan.joshi66@retailhub.com",
+        "city": "Pune",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 67,
+        "first_name": "Neha",
+        "last_name": "Singh",
+        "email": "neha.singh67@retailhub.com",
+        "city": "Delhi",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 68,
+        "first_name": "Priya",
+        "last_name": "Gupta",
+        "email": "priya.gupta68@retailhub.com",
+        "city": "Chennai",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 69,
+        "first_name": "Sneha",
+        "last_name": "Singh",
+        "email": "sneha.singh69@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 70,
+        "first_name": "Amit",
+        "last_name": "Sharma",
+        "email": "amit.sharma70@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 71,
+        "first_name": "Rohan",
+        "last_name": "Gupta",
+        "email": "rohan.gupta71@retailhub.com",
+        "city": "Pune",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 72,
+        "first_name": "Rahul",
+        "last_name": "Singh",
+        "email": "rahul.singh72@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 73,
+        "first_name": "Anjali",
+        "last_name": "Gupta",
+        "email": "anjali.gupta73@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 74,
+        "first_name": "Karan",
+        "last_name": "Gupta",
+        "email": "karan.gupta74@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 75,
+        "first_name": "Anjali",
+        "last_name": "Sharma",
+        "email": "anjali.sharma75@retailhub.com",
+        "city": "Chennai",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 76,
+        "first_name": "Amit",
+        "last_name": "Sharma",
+        "email": "amit.sharma76@retailhub.com",
+        "city": "Pune",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 77,
+        "first_name": "Sneha",
+        "last_name": "Sinha",
+        "email": "sneha.sinha77@retailhub.com",
+        "city": "Chennai",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 78,
+        "first_name": "Anjali",
+        "last_name": "Sinha",
+        "email": "anjali.sinha78@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 79,
+        "first_name": "Anjali",
+        "last_name": "Yadav",
+        "email": "anjali.yadav79@retailhub.com",
+        "city": "Pune",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 80,
+        "first_name": "Rahul",
+        "last_name": "Joshi",
+        "email": "rahul.joshi80@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 81,
+        "first_name": "Priya",
+        "last_name": "Singh",
+        "email": "priya.singh81@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 82,
+        "first_name": "Sneha",
+        "last_name": "Patel",
+        "email": "sneha.patel82@retailhub.com",
+        "city": "Delhi",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 83,
+        "first_name": "Pooja",
+        "last_name": "Sharma",
+        "email": "pooja.sharma83@retailhub.com",
+        "city": "Delhi",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 84,
+        "first_name": "Rahul",
+        "last_name": "Patel",
+        "email": "rahul.patel84@retailhub.com",
+        "city": "Pune",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 85,
+        "first_name": "Harshit",
+        "last_name": "Patel",
+        "email": "harshit.patel85@retailhub.com",
+        "city": "Delhi",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 86,
+        "first_name": "Pooja",
+        "last_name": "Sharma",
+        "email": "pooja.sharma86@retailhub.com",
+        "city": "Pune",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 87,
+        "first_name": "Sneha",
+        "last_name": "Patel",
+        "email": "sneha.patel87@retailhub.com",
+        "city": "Chennai",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 88,
+        "first_name": "Karan",
+        "last_name": "Singh",
+        "email": "karan.singh88@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 89,
+        "first_name": "Rohan",
+        "last_name": "Joshi",
+        "email": "rohan.joshi89@retailhub.com",
+        "city": "Pune",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 90,
+        "first_name": "Sneha",
+        "last_name": "Gupta",
+        "email": "sneha.gupta90@retailhub.com",
+        "city": "Pune",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 91,
+        "first_name": "Rahul",
+        "last_name": "Singh",
+        "email": "rahul.singh91@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 92,
+        "first_name": "Anjali",
+        "last_name": "Verma",
+        "email": "anjali.verma92@retailhub.com",
+        "city": "Bangalore",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 93,
+        "first_name": "Anjali",
+        "last_name": "Singh",
+        "email": "anjali.singh93@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 94,
+        "first_name": "Anjali",
+        "last_name": "Singh",
+        "email": "anjali.singh94@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 95,
+        "first_name": "Karan",
+        "last_name": "Verma",
+        "email": "karan.verma95@retailhub.com",
+        "city": "Pune",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 96,
+        "first_name": "Amit",
+        "last_name": "Yadav",
+        "email": "amit.yadav96@retailhub.com",
+        "city": "Pune",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 97,
+        "first_name": "Karan",
+        "last_name": "Sharma",
+        "email": "karan.sharma97@retailhub.com",
+        "city": "Mumbai",
+        "membership": "Gold"
+    },
+    {
+        "customer_id": 98,
+        "first_name": "Harshit",
+        "last_name": "Sinha",
+        "email": "harshit.sinha98@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Silver"
+    },
+    {
+        "customer_id": 99,
+        "first_name": "Rahul",
+        "last_name": "Gupta",
+        "email": "rahul.gupta99@retailhub.com",
+        "city": "Pune",
+        "membership": "Bronze"
+    },
+    {
+        "customer_id": 100,
+        "first_name": "Rahul",
+        "last_name": "Gupta",
+        "email": "rahul.gupta100@retailhub.com",
+        "city": "Hyderabad",
+        "membership": "Bronze"
+    }
+]

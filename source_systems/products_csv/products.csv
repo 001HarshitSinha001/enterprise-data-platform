@@ -1,0 +1,51 @@
+product_id,product_name,category,brand,price,stock_status
+1,Smartphone,Electronics,Samsung,17742,Low Stock
+2,Monitor,Electronics,LG,72643,In Stock
+3,Headphones,Accessories,Sony,19706,Low Stock
+4,Mouse,Accessories,Logitech,70309,Out of Stock
+5,Webcam,Accessories,Logitech,18230,In Stock
+6,Smartphone,Electronics,Samsung,58904,In Stock
+7,Keyboard,Accessories,Logitech,56799,Out of Stock
+8,Printer,Office,HP,56663,Low Stock
+9,Printer,Office,HP,16904,Out of Stock
+10,Laptop,Electronics,Dell,28718,In Stock
+11,Tablet,Electronics,Apple,45235,Low Stock
+12,Speaker,Electronics,JBL,57542,Out of Stock
+13,Monitor,Electronics,LG,75566,Out of Stock
+14,Webcam,Accessories,Logitech,3365,Out of Stock
+15,Laptop,Electronics,Dell,74400,Out of Stock
+16,Laptop,Electronics,Dell,20105,Out of Stock
+17,Mouse,Accessories,Logitech,60212,Out of Stock
+18,Smartphone,Electronics,Samsung,41235,Low Stock
+19,Keyboard,Accessories,Logitech,59797,Out of Stock
+20,Headphones,Accessories,Sony,66354,In Stock
+21,Webcam,Accessories,Logitech,33381,In Stock
+22,Webcam,Accessories,Logitech,61047,In Stock
+23,Headphones,Accessories,Sony,40665,In Stock
+24,Printer,Office,HP,23310,In Stock
+25,Mouse,Accessories,Logitech,64026,Out of Stock
+26,Headphones,Accessories,Sony,1877,Low Stock
+27,Monitor,Electronics,LG,27158,Out of Stock
+28,Mouse,Accessories,Logitech,41602,In Stock
+29,Tablet,Electronics,Apple,25734,Low Stock
+30,Tablet,Electronics,Apple,75562,Low Stock
+31,Laptop,Electronics,Dell,22666,In Stock
+32,Speaker,Electronics,JBL,26298,In Stock
+33,Smartphone,Electronics,Samsung,8984,Low Stock
+34,Tablet,Electronics,Apple,70075,In Stock
+35,Printer,Office,HP,20262,Low Stock
+36,Speaker,Electronics,JBL,48238,Low Stock
+37,Keyboard,Accessories,Logitech,61129,Low Stock
+38,Printer,Office,HP,36305,Out of Stock
+39,Monitor,Electronics,LG,27267,Low Stock
+40,Keyboard,Accessories,Logitech,60511,In Stock
+41,Tablet,Electronics,Apple,19470,Low Stock
+42,Smartphone,Electronics,Samsung,72451,Out of Stock
+43,Laptop,Electronics,Dell,43081,Out of Stock
+44,Mouse,Accessories,Logitech,26653,Out of Stock
+45,Headphones,Accessories,Sony,45020,Out of Stock
+46,Mouse,Accessories,Logitech,33590,Low Stock
+47,Printer,Office,HP,3001,Out of Stock
+48,Speaker,Electronics,JBL,54734,In Stock
+49,Smartphone,Electronics,Samsung,51142,In Stock
+50,Tablet,Electronics,Apple,68624,Out of Stock
