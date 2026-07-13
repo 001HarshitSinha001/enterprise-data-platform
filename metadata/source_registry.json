@@ -177,7 +177,8 @@
     "connection": {
       "bootstrap_servers": "localhost:9092",
       "topic": "payments",
-      "consumer_group": "enterprise-data-platform"
+      "consumer_group": "enterprise-data-platform",
+      "file_path": "source_systems/payments_kafka/payments.json"
     },
     "destination": {
       "layer": "raw",

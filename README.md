@@ -29,6 +29,41 @@ This project implements a metadata-driven ETL pipeline for ingesting data from m
 - Each report includes source row counts, validation results, numeric summaries, and top categorical values.
 - Required columns can be configured per source in `metadata/source_registry.json` using `required_columns`.
 
+## Running the Scheduler
+
+If Docker is not available, use the lightweight Python scheduler from the project root:
+
+```powershell
+Set-Location C:\Data_Engineer\enterprise-data-platform
+python .\scheduler.py
+```
+
+Run once and exit:
+
+```powershell
+python .\scheduler.py --once
+```
+
+Run a single enabled source by name:
+
+```powershell
+python .\scheduler.py --source orders_db
+```
+
+Run with a custom poll interval:
+
+```powershell
+python .\scheduler.py --poll-interval 60
+```
+
+The scheduler executes enabled sources according to the schedule in `metadata/source_registry.json`.
+
+> For sources like `payments_kafka`, the project uses a local fallback file when live Kafka is not available.
+
+## Airflow Alternative
+
+A Docker Compose Airflow setup is included under `docker/airflow/`, but it requires Docker Desktop.
+
 ## Notes
 
 - Connectors support CSV, Excel, JSON, XML, API, PostgreSQL, Kafka, and MongoDB.

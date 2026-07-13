@@ -35,46 +35,60 @@ class IngestionEngine:
             if not source.get("enabled", False):
                 continue
 
-            print(f"\nProcessing: {source['source_name']}")
-            connector = ConnectorFactory.get_connector(source)
-            data = connector.read()
-
-            record_count = self._record_count(data)
-            print(f"Records Read: {record_count}")
-
-            raw_path = self._write_raw(source, data)
-            print(f"Raw data written: {raw_path}")
-
-            staging_df = self.transformer.stage(source, data)
-            staging_path = self._write_dataframe(source, staging_df, self.staging_root, "staging")
-            print(f"Staging data written: {staging_path} ({len(staging_df)} rows)")
-
-            curated_df = self.transformer.curate(source, staging_df)
-            curated_path = self._write_dataframe(source, curated_df, self.curated_root, "curated")
-            print(f"Curated data written: {curated_path} ({len(curated_df)} rows)")
-
-            validation_result = self.validator.validate_dataframe(
-                curated_df,
-                required_columns=source.get("required_columns", []),
-            )
-
-            summary = self.reporter.summarize_curated(source["source_name"], curated_df)
-            run_report["sources"].append(
-                {
-                    "source_name": source["source_name"],
-                    "record_count": record_count,
-                    "staging_rows": len(staging_df),
-                    "curated_rows": len(curated_df),
-                    "validation": validation_result,
-                    "summary": summary,
-                }
-            )
+            result = self._run_source(source)
+            run_report["sources"].append(result)
 
         report_path = self.reporter.save_run_report(run_report)
         summary_path = self.reporter.save_consolidated_report(run_report)
 
         print(f"\nETL report saved: {report_path}")
         print(f"ETL summary CSV saved: {summary_path}")
+
+    def run_source(self, source: dict):
+        result = self._run_source(source)
+        run_report = {
+            "run_timestamp": datetime.utcnow().isoformat(),
+            "sources": [result],
+        }
+        report_path = self.reporter.save_run_report(run_report)
+        summary_path = self.reporter.save_consolidated_report(run_report)
+
+        print(f"\nETL report saved: {report_path}")
+        print(f"ETL summary CSV saved: {summary_path}")
+
+    def _run_source(self, source: dict) -> dict:
+        print(f"\nProcessing: {source['source_name']}")
+        connector = ConnectorFactory.get_connector(source)
+        data = connector.read()
+
+        record_count = self._record_count(data)
+        print(f"Records Read: {record_count}")
+
+        raw_path = self._write_raw(source, data)
+        print(f"Raw data written: {raw_path}")
+
+        staging_df = self.transformer.stage(source, data)
+        staging_path = self._write_dataframe(source, staging_df, self.staging_root, "staging")
+        print(f"Staging data written: {staging_path} ({len(staging_df)} rows)")
+
+        curated_df = self.transformer.curate(source, staging_df)
+        curated_path = self._write_dataframe(source, curated_df, self.curated_root, "curated")
+        print(f"Curated data written: {curated_path} ({len(curated_df)} rows)")
+
+        validation_result = self.validator.validate_dataframe(
+            curated_df,
+            required_columns=source.get("required_columns", []),
+        )
+
+        summary = self.reporter.summarize_curated(source["source_name"], curated_df)
+        return {
+            "source_name": source["source_name"],
+            "record_count": record_count,
+            "staging_rows": len(staging_df),
+            "curated_rows": len(curated_df),
+            "validation": validation_result,
+            "summary": summary,
+        }
 
     def _record_count(self, data: Any) -> int:
         if data is None:
