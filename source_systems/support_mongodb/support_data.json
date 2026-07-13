@@ -1,0 +1,16 @@
+[
+    {
+        "ticket_id": 1,
+        "customer_id": 101,
+        "issue_type": "Login",
+        "priority": "High",
+        "status": "Open"
+    },
+    {
+        "ticket_id": 2,
+        "customer_id": 102,
+        "issue_type": "Payment",
+        "priority": "Medium",
+        "status": "Resolved"
+    }
+]

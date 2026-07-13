@@ -1,0 +1,16 @@
+[
+  {
+    "payment_id": 1001,
+    "order_id": 501,
+    "amount": 2300.5,
+    "payment_method": "Credit Card",
+    "status": "Completed"
+  },
+  {
+    "payment_id": 1002,
+    "order_id": 502,
+    "amount": 1450.0,
+    "payment_method": "UPI",
+    "status": "Completed"
+  }
+]

@@ -7,13 +7,12 @@ from ingestion.connectors.postgres_connector import PostgresConnector
 from ingestion.connectors.kafka_connector import KafkaConnector
 from ingestion.connectors.mongodb_connector import MongoDBConnector
 
-
 class ConnectorFactory:
 
     @staticmethod
-    def get_connector(config):
+    def get_connector(source):
 
-        connector_type = config["type"].lower()
+        connector_type = source["source_type"].lower()
 
         connectors = {
             "api": APIConnector,
@@ -29,6 +28,8 @@ class ConnectorFactory:
         connector = connectors.get(connector_type)
 
         if connector is None:
-            raise ValueError(f"Unsupported connector type: {connector_type}")
+            raise ValueError(
+                f"Unsupported connector type: {connector_type}"
+            )
 
-        return connector(config)
+        return connector(source)

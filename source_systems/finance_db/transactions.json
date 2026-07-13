@@ -1,0 +1,20 @@
+[
+  {
+    "transaction_id": 1,
+    "account_id": 201,
+    "transaction_date": "2026-06-01",
+    "amount": 1500.75,
+    "currency": "INR",
+    "category": "Revenue",
+    "status": "Completed"
+  },
+  {
+    "transaction_id": 2,
+    "account_id": 202,
+    "transaction_date": "2026-06-02",
+    "amount": 2750.90,
+    "currency": "INR",
+    "category": "Expense",
+    "status": "Pending"
+  }
+]

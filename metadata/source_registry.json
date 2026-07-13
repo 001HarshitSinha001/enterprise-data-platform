@@ -118,7 +118,7 @@
     "schedule": "0 4 * * *",
     "connection": {
       "file_path": "source_systems/inventory_excel/inventory.xlsx",
-      "sheet_name": "Inventory"
+      "sheet_name": "Sheet1"
     },
     "destination": {
       "layer": "raw",
@@ -137,7 +137,7 @@
     "enabled": true,
     "schedule": "0 5 * * *",
     "connection": {
-      "file_path": "source_systems/marketing_json/campaigns.json"
+      "file_path": "source_systems/marketing_json/marketing.json"
     },
     "destination": {
       "layer": "raw",

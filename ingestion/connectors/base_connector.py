@@ -6,6 +6,7 @@ class BaseConnector(ABC):
 
     def __init__(self, config):
         self.config = config
+        self.source_name = config.get("source_name", config.get("name", "unknown"))
         self.logger = get_logger(self.__class__.__name__)
 
     @abstractmethod
